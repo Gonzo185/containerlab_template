@@ -1,0 +1,24 @@
+name: tempalte_lab # saved as /home/t3060368/labs/container_template/template_lab.clab.yml
+
+topology:
+  nodes:
+    R1:
+      kind: cisco_iol
+      mgmt-ipv4: 172.20.20.42
+      mgmt-ipv6: 3fff:172:20:20::29
+      image: vrnetlab/cisco_iol:17.16.01
+    R2:
+      kind: cisco_iol
+      mgmt-ipv4: 172.20.20.38
+      mgmt-ipv6: 3fff:172:20:20::25
+      image: vrnetlab/cisco_iol:17.16.01
+    R3:
+      kind: cisco_iol
+      mgmt-ipv4: 172.20.20.26
+      mgmt-ipv6: 3fff:172:20:20::1a
+      image: vrnetlab/cisco_iol:17.16.01
+    R4:
+      kind: cisco_iol
+      mgmt-ipv4: 172.20.20.25
+      mgmt-ipv6: 3fff:172:20:20::19
+      image: vrnetlab/cisco_iol:17.16.01
